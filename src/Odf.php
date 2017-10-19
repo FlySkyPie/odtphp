@@ -102,7 +102,7 @@ class Odf
      * @throws OdfException
      * @return odf
      */
-    public function setVars($key, $value, $encode = true, $charset = 'ISO-8859')
+    public function setVars($key, $value, $encode = true, $charset = 'UTF-8')
     {
         $tag= $this->config['DELIMITER_LEFT'] . $key . $this->config['DELIMITER_RIGHT'];
         if (strpos($this->contentXml, $tag) === false && strpos($this->stylesXml, $tag) === false) {
