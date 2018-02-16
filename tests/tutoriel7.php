@@ -14,10 +14,12 @@
 
 // Make sure you have Zip extension or PclZip library loaded
 // First : include the librairy
-require_once('../library/Odf.php');
+require_once('../src/Odf.php');
+
+use Odtphp\Odf;
 
 $config = array(
-    'ZIP_PROXY' => 'PhpZipProxy', // Make sure you have Zip extension loaded
+    'ZIP_PROXY' => 'Odtphp\\Zip\\PclZipProxy', // Make sure you have Zip extension loaded
     'DELIMITER_LEFT' => '#', // Yan can also change delimiters
     'DELIMITER_RIGHT' => '#'
 );

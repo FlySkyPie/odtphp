@@ -2,6 +2,18 @@
 
 namespace Odtphp;
 
+// Load the required classes
+require_once('../src/Exceptions/OdfException.php');
+require_once('../src/Exceptions/PhpZipProxyException.php');
+require_once('../src/Exceptions/PhpZipProxyException.php');
+require_once('../src/Exceptions/SegmentException.php');
+require_once('../src/Segment.php');
+require_once('../src/SegmentIterator.php');
+require_once('../lib/pclzip.lib.php');
+require_once('../src/Zip/ZipInterface.php');
+require_once('../src/Zip/PclZipProxy.php');
+require_once('../src/Zip/PhpZipProxy.php');
+
 use Odtphp\Segment;
 use Odtphp\Exceptions\OdfException;
 use Odtphp\Zip\PclZipProxy;

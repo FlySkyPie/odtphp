@@ -14,11 +14,12 @@ ini_set('display_errors', 1);
  * @version 1.3
  */
 
-use Odtphp\Odf;
-
+ 
 // Make sure you have Zip extension or PclZip library loaded
 // First : include the librairy
-require_once '../vendor/autoload.php';
+require_once('../src/Odf.php');
+
+use Odtphp\Odf;
 
 $odf = new Odf("tutoriel1.odt");
 
