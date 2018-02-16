@@ -22,8 +22,8 @@ $odf = new Odf("tutoriel2.odt");
 
 $odf->setVars('titre','Anaska formation');
 
-$message = "Anaska, leader Français de la formation informatique sur les technologies 
-Open Source, propose un catalogue de plus de 50 formations dont certaines préparent 
+$message = "Anaska, leader Francais de la formation informatique sur les technologies 
+Open Source, propose un catalogue de plus de 50 formations dont certaines preparent 
 aux certifications Linux, MySQL, PHP et PostgreSQL.";
 
 $odf->setVars('message', $message);

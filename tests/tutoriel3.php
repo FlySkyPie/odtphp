@@ -20,12 +20,12 @@ use Odtphp\Odf;
 
 $odf = new Odf("tutoriel3.odt");
 
-$odf->setVars('titre', 'Quelques articles de l\'encyclopédie Wikipédia');
+$odf->setVars('titre', 'Quelques articles de l\'encyclopedie Wikipedia');
 
-$message = "La force de cette encyclopédie en ligne réside dans son nombre important de 
+$message = "La force de cette encyclopedie en ligne reside dans son nombre important de 
  contributeurs. Ce sont en effet des millions d'articles qui sont disponibles dans la langue 
  de Shakespeare et des centaines de milliers d'autres dans de nombreuses langues dont 
- le français, l'espagnol, l'italien, le turc ou encore l'allemand.";
+ le francais, l'espagnol, l'italien, le turc ou encore l'allemand.";
 
 $odf->setVars('message', $message);
 
@@ -34,10 +34,10 @@ $listeArticles = array(
 			'texte' => 'PHP (sigle de PHP: Hypertext Preprocessor), est un langage de scripts (...)',
 	),
 	array(	'titre' => 'MySQL',
-			'texte' => 'MySQL est un système de gestion de base de données (SGDB). Selon le (...)',
+			'texte' => 'MySQL est un système de gestion de base de donnees (SGDB). Selon le (...)',
 	),
 	array(	'titre' => 'Apache',
-			'texte' => 'Apache HTTP Server, souvent appelé Apache, est un logiciel de serveur (...)',
+			'texte' => 'Apache HTTP Server, souvent appele Apache, est un logiciel de serveur (...)',
 	),		
 );
 
