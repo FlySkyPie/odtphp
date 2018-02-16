@@ -23,7 +23,7 @@ use Odtphp\Odf;
 
 $odf = new Odf("tutoriel1.odt");
 
-$odf->setVars('titre', 'PHP: Hypertext PreprocessorPHP: Hypertext Preprocessor');
+$odf->setVars('titre', 'PHP: Hypertext Preprocessor');
 
 $message = "PHP (sigle de PHP: Hypertext Preprocessor), est un langage de scripts libre 
 principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais 
