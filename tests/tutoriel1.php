@@ -26,9 +26,9 @@ $odf = new Odf("tutoriel1.odt");
 $odf->setVars('titre', 'PHP: Hypertext Preprocessor');
 
 $message = "PHP (sigle de PHP: Hypertext Preprocessor), est un langage de scripts libre 
-principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais 
-pouvant également fonctionner comme n'importe quel langage interprété de façon locale, 
-en exécutant les programmes en ligne de commande.";
+principalement utilise pour produire des pages Web dynamiques via un serveur HTTP, mais 
+pouvant egalement fonctionner comme n'importe quel langage interprete de facon locale, 
+en executant les programmes en ligne de commande.";
 
 $odf->setVars('message', $message);
 
